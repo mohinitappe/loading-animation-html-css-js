@@ -1,0 +1,25 @@
+body {
+    background-color: #404040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .box {
+    width: 16px;
+    height: 16px;
+    background-color: #8f8f8f;
+    margin: 4px;
+    transition: background-color 0.1s ease;
+  }
+  
+  .box.active {
+    background-color: yellow;
+  }
+  
